@@ -1,0 +1,41 @@
+<!-- HTML File -->
+
+<table>
+	<thead>
+	   <th colspan="3" style="color:skyblue">A walk down memory lane</th>
+	</thead>
+	<tbody> 
+	   <tr>
+	     <td><a href=""><img src=""/></a></td>
+	     <td><a href=""><img src=""/></a></td>
+	     <td><a href=""><img src=""/></a></td>
+	   </tr>
+	   <tr>
+	     <td><a href=""><img src=""/></a></td>
+	     <td><a href=""><img src=""/></a></td>
+	     <td><a href=""><img src=""/></a></td>
+	    </tr>
+	    <tr>
+	     <td><a href=""><img src=""/></a></td>
+	     <td><a href=""><img src=""/></a></td>
+	     <td><a href=""><img src=""/></a></td>
+	   </tr>
+	 </tbody>
+</table>
+
+
+
+
+
+
+<!-- CSS Stylesheet -->
+
+
+img {
+	width:100px;
+	height:100px;
+}
+
+table, td {
+	border: 1px #70b8ff solid;
+}
