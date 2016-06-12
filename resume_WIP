@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+	<body>
+	<div id="header">
+	    <h2 id="name">Gi Yung Bang </h1>
+	    <h6 id="address">42 Belmont Avenue<br>Yonkers, NY 10704<br></h6>
+    	<h5 id="contact">Cell No.: (929) 800-1960 <br> Email: GixYung@gmail.com</h5>
+	</div>
+	
+	<div class="left"></div>
+	
+	
+	<div class="right">
+	   <h4 id="objective">Objective:</h4>
+	    <p>To find a career in a position that requires     extensive use of data and analysis. </p>
+	<h4 id="experience">Experience:</h4>
+	    <p id="job1">
+	        <h5>Student Assistant, SUNY New Paltz</h5>
+	        <h5>September 2015–May 2016</h5>
+	            <ul>
+	                <li>Worked at the reception, responsible for incoming phone calls and directing guests</li>
+	                <li>Handled the interdepartmental inquiries and correspondences</li>
+	            </ul>
+	    </p>
+	    <p id="job2">
+	        <h5>Legal Assistant, David M. Peterson P.C.</h5>
+	        <h5>November 2012-August 2014</h5>
+	            <ul>
+	               <li>Drafted legal documents and prepared trial binders for court </li>
+	               <li>Maintained all active and inactive cases in office from retainer to settlement</li>
+	               <li>Kept cases organized by establishing files, monitoring calendars, meeting deadlines, documenting actions, and confirming case statuses</li>
+	               <li>Balanced the escrow and business account</li>
+	               <li>Maintained A/R and A/P </li>
+	               <li>Communicated as a liaison between the attorney and accountant for annual and quarterly reports as well as the end of the year taxes</li>
+	            </ul>
+	    </p>
+
+	<h4 id="skills">Skills:</h4>
+	    <p id="skills">
+	       <ul>
+	       <li>Languages: Korean, HTML5, CSS</li>
+	       <li>Programs: Microsoft Office, Gretl, Quickbooks.</li>
+	       </ul>
+	    </p>
+	<h4 id="clubs">Leadership Organizations</h4>
+        <p id="clubs">
+            <ul>
+	        <li>Whatever it Takes</li>
+	        <li>Economics Club</li>
+	        <li>Omicron Delta Epsilon</li>
+	        </ul>
+        </p>	
+	
+	<h4 id="education">Education:</h4>
+	<p>
+	    <h5 id="school">State University of New York at New Paltz</h5><h5 id="year">
+	    <h5 id="degree">BA Economics, Business Administration</h5><h5 id="gpa"></h5>
+	        <em>Senior Thesis</em>: The Business Concentration and the Rise of Local Inequality in the U.S.<br>
+	        <em>Coursework:</em>: Econometrics, Economics of Development, Money and Banking, Financial Accounting, Legal Environment of Business, International Trade & Finance, Marketing, and Corporate Finance.
+	    </p>
+	</div>
+	
+	<div id="footer">
+	</div>
+	
+
+	</body>
+</html>
+
+
+
+
+
+
+<!--CSS Below -->
+
+
+#header{
+    position: fixed;
+    z-index:1;
+    height: 70px;
+    width:98%;
+    border-radius: 5px;
+    background-color: #feffb5;
+}
+#footer{
+    clear: both;
+    border-radius: 5px;
+    height:40px;
+    width:95%;
+    background-color: #feffb5;
+}
+
+.left {
+    float: left;
+    border-radius: 5px;
+    height:400px;
+    width:8%;
+    background-color: 	#efcdff;
+}
+.right {
+    float: right;
+    border-radius: 5px;
+    height:400px;
+    width:90%;
+    background-color:#fde0cf;
+}
