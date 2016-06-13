@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+	<body>
+	
+<div id="header">
+<h2>Gi Yung Bang</h2>
+<a href="mailto:gixyung@gmail.com"> <p id="email">gixyung@gmail.com</p> </a>
+</div>
+	
+<div class="left"></div>
+	
+<div class="right">
+<h5>Education:</h5>
+    <div id="col1">State University of New York at New Paltz       <br>BA, Economics and Business Administration</div>
+    <div id="col2">August 2016<br>GPA: 3.1/4.0</div>
+<br><br>
+    <div style="font-size:12px"><em>Senior Thesis</em>: The Business Concentration and the Rise of Local Inequality in the U.S.<br> <em>Coursework</em>: Econometrics, Economics of Development, Money and Banking, Financial Accounting, Legal Environment of Business, International Trade & Finance, Marketing, and Corporate Finance.</div>    
+<!--New SECTION FROM HERE-->    
+<!--New SECTION FROM HERE-->
+
+<h5>Experience:</h5>
+<div id="col1">State University of New York at New Paltz <br>Student Assistant</div><div id="col2">New Paltz, NY <br>Year - Year</div>
+	<ul>
+		<li>task1</li>
+		<li>task2</li>
+	</ul>
+<div id="col1">David M. Peterson, P.C. <br>Legal Assistant</div><div id="col2">New York, NY <br>Year - Year</div>
+	<ul>
+		<li>task1</li>
+		<li>task2</li>
+	</ul>
+	
+<!--New SECTION FROM HERE-->    
+<!--New SECTION FROM HERE-->
+<div id="tcol1">
+<h5>Leadership Activitives:</h5>
+	<ul id="ccol">	
+	<li>WIT, Founder</li>
+	<li>Economics Club</li>
+	<li>Omicron Delta Epsilon, inc.</li>
+	</ul>
+</div>
+<div id="tcol2">
+<h5>Skills:</h5>
+	<ul id="ccol">	
+	<li>Languages: Korean, HTML, CSS</li>
+	<li>Programs: Microsoft Office, Gretl, R, Quickbooks</li>
+	</ul>	
+</div>
+<!--New SECTION FROM HERE-->    
+<!--New SECTION FROM HERE-->
+
+</div>
+	
+	<div id="footer">
+	<h5>42 Belmont Avenue, Yonkers, N.Y. 10704 | (929) 800-1960</h5>
+	<p>&copy; Misshabits, 2016</p>
+	</div>
+	</body>
+</html>
+
+
+
+<!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE -->
+<!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE -->
+<!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE -->
+<!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE -->
+<!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE -->
+<!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE --><!-- CSS STARTING BELOW HERE -->
+
+
+
+* {
+    border-radius: 5px;    
+}
+
+#header{
+    z-index:1;
+    position: fixed;
+    height: 50px;
+    width:92.5%;
+    margin-top: 5px;
+    background-color: #ebf5fb;
+    padding-left:10px;
+    padding-right: 10px;
+}
+    h2 {
+        float: left;
+        
+    }
+    #email {
+        float:right;
+    }
+    
+#footer{
+    clear: both;
+    height:30px;
+    width:95%;
+    background-color: 	#e8f6f3;
+    text-align: center;
+}
+    #footer p {
+        font-size:10px;
+        margin-top:-12px;
+    }
+
+.left {
+    float: left;
+    height:400px;
+    width:15%;
+    background-color:#f8ebe1;
+    margin-top:55px;
+}
+
+.right {
+    float: right;
+    height:400px;
+    width:80%;
+    background-color:#fde0cf;
+    margin-top:55px;
+    position:relative;
+    left:-55px;
+}
+h5 {
+	clear:both;
+	margin-left:5px;
+	margin-top: 5px;
+}
+div {
+    margin-top:-10px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+#col1{
+	float:left;
+	margin-left:10px;
+}
+#col2{
+	float:right;
+}
+    #tcol1{
+        float:left;
+        margin-left:2.5px;
+    }
+    #tcol2{
+        float:right;
+        margin-right: 30px;
+    }
+        #ccol {
+	    margin-top: -10px;
+	    margin-left:-10px;
+	    font-size: 12px;
+        }
+ul {
+	clear:both;
+	font-size:12px;
+	margin-left:-5px;
+}
